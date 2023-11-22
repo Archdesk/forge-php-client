@@ -128,9 +128,7 @@ class Messages implements ArrayAccess
      */
     public function listInvalidProperties()
     {
-        $invalid_properties = parent::listInvalidProperties();
-
-        return $invalid_properties;
+      return [];
     }
 
     /**
@@ -141,10 +139,6 @@ class Messages implements ArrayAccess
      */
     public function valid()
     {
-        if (!parent::valid()) {
-            return false;
-        }
-
         return true;
     }
 
