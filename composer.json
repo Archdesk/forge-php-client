@@ -1,5 +1,5 @@
 {
-  "name": "autodesk/forge-client",
+  "name": "exsio/autodesk-forge-client",
   "description": "",
   "keywords": [
     "swagger",
@@ -20,7 +20,7 @@
     "ext-curl": "*",
     "ext-json": "*",
     "ext-mbstring": "*",
-    "autodesk/core": "^1.0"
+    "exsio/autodesk-core": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.8",
