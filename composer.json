@@ -20,7 +20,7 @@
     "ext-curl": "*",
     "ext-json": "*",
     "ext-mbstring": "*",
-    "exsio/autodesk-core": "dev-master"
+    "exsio/autodesk-core": "^0.1"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.8",
